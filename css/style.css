@@ -14,14 +14,77 @@
    align-items: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 70px 0px;
+  padding: 100px 0px 160px;
 }
 .about_block h3{
     font-size: 62px;
     letter-spacing: -1px;
+    padding-bottom: 40px;
 }
 .about_block p{
     font-size: 37px;
     color:yellowgreen;
     margin-bottom: 0px;
 }
+.experience{
+    margin-top:-120px;
+}
+.experience-single{
+    padding:10x;
+    height:400px;
+    width: 250px;
+    overflow: hidden;
+}
+.container .card {
+    max-width: 300px;
+    height: 400px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover {
+    height: 650px
+}
+
+.container .card .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 377px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+}
+
+.container .card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s
+}
+.container .card h2{font-size: 28px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+@media (max-width: 330px) {
+    .container .card .imgContainer {
+        left: -2px
+    }
+}
+.bg-lightblue{background-color:#e3e7f1;}
