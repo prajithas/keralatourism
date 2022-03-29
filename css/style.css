@@ -1,0 +1,27 @@
+.social-icons{text-align: right;}
+#carouselExampleControls.carousel .carousel-item img {
+    max-height: 450px;
+    min-width: auto;
+  }
+.loginform{
+    top:22%;
+    right:10%;
+    width:30%;
+    background:rgba(0,0,0,0.6);
+    border-radius:15px;
+}
+.about_block{
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 70px 0px;
+}
+.about_block h3{
+    font-size: 62px;
+    letter-spacing: -1px;
+}
+.about_block p{
+    font-size: 37px;
+    color:yellowgreen;
+    margin-bottom: 0px;
+}
