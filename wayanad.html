@@ -9,14 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
-    
 </head>
 <body>
     <!--topheader-->
-    <div class="bg-green pt-1 pb-1">
+    <div class="bg-success pt-1 pb-1">
       <div class="container">
         <div class="row">
           <div class="col text-light">
@@ -71,146 +68,133 @@
       </div>
     </nav>
     <!-- /navbar -->
-   <section class="container-fluid">
-     <div class="">
-       <img src="images/banner.jpg" alt=""/>
+   <section class="container-fluid mb-3">
+     <div class="banner">
+       <img src="images/wayanadbanner.jpg" alt="" class="img-fluid"/>
+       <div class="overlay">
+         <h3>Wayanad</h3>
+         <ul class="list-inline">
+           <li class="list-inline-item"><a class="text-decoration-none text-light"  href="index.html">Home</a></li>
+           <li class="list-inline-item">&raquo;</li>
+           <li class="list-inline-item"><a class="text-decoration-none text-light" href="district.html">Districts</a></li>
+           <li class="list-inline-item">&raquo;</li>
+           <li class="list-inline-item text-warning ">Wayanad</li>
+         </ul>
+       </div>
      </div>
    </section>
    
    <!-- District Attractions -->
-   <section class="pt-5 pb-5 bg-lightblue">
+   <section class="pt-5 pb-5 single_district">
     <div class="container">
       <div class="row">
-        <h2 class="text-center text-success pb-5">District Attractions</h2>
-        <div class="row text-center">
-          <div class="col-md-3">
-            <a href="thiruvananthapuram.html" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/kuthira-malika1.jpg" alt="" class="img-fluid"/>
+          <div class="col-12 col-md-6">
+              <h1>Wayanad</h1>
+              <p>
+                Wayanad is a rural district in Kerala state, southwest India. In the east, the Wayanad Wildlife Sanctuary is a lush, forested region with areas of high altitude, home to animals including Asiatic elephants, tigers, leopards and egrets. In the Ambukuthi Hills to the south, Edakkal Caves contain ancient petroglyphs, some dating back to the Neolithic age. 
+              </p>
+              <p>Wayanad Tourist Places includes Banasura Sagar Dam, Chembra Peak, Kuruva Island, Edakkal Caves, Chain Tree, Pookode Lake, Tholpetty Wildlife Sanctuary etc.</p>
+          </div>
+          <div class="col-12 col-md-6 pt-5">
+            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/wayanad/1520062171_wayanad_points_of_interest.jpg.jpg" alt="kasaragod" class="rounded img-fluid"/>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/wayanad/1520318496_wayanad_tourist_places.jpeg.jpg" alt="" class="rounded img-fluid"/>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/wayanad/1568965297_2_Terowongan_Indah_Dunia_travelgaijincom.jpg.jpg" alt="" class="rounded img-fluid"/>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/wayanad/chembra.jpg" alt="" class="rounded img-fluid"/>
+                </div>
+              </div>
             </div>
-            <h4 class="pb-2 pt-2">Thiruvananthapuram</h4>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-            <img src="images/kollam.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Kollam</h4>
-          </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/gavi.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Pathanamthitta</h4>
-          </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/alappuzha.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Alappuzha</h4>
-            </a>
-          </div>
-       
-         
+           
         </div>
-        <div class="row text-center mt-3">
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/kottayam.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Kottayam</h4>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/dam.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Idukki</h4>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="ernakulam.html" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/cochin.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Ernakulam</h4>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/thrissur.jpg" alt="" class="img-fluid"/>
-            </div>
-            <h4 class="pb-2 pt-2">Thrissur</h4>
-            </a>
-          </div>
-       </div>
-       <div class="row text-center mt-3">
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/palakkad.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Palakkad</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/malappuram.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Malappuram</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="kozhikode.html" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/beypore-2.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Kozhikode</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="wayanad.html" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/wayanad.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Wayanad</h4>
-          </a>
-        </div>
-        </div>
-        <div class="row text-center mt-3">
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/kannur.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Kannur</h4>
-          </a>
-        </div>
-        <div class="col-md-3 ">
-          <a href="kasaragod.html" class="text-dark text-decoration-none">
-          <div class="bg-image hover-zoom">
-          <img src="images/ranipuram-hills-3.jpg" alt="" class="img-fluid w-100"/>
-        </div>
-          <h4 class="pb-2 pt-2">Kasaragod</h4>
-          </a>
-        </div>
-        </div>
-      
-        
-       </div>
       </div>
     </div>
    </section>
    <!-- /District Attractions -->
+   <!-- Points of interest -->
+   <section class="pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="pb-5">POINTS OF INTEREST</h2>
+          <div class="row pb-2">
+          <div class="col-6 col-md-3">
+              <img src="images/wayanad/Pookode-Lake-1536x997.jpg" alt="" class="img-fluid"/>
+          </div>
+          <div class="col-6 col-md-9">
+           <h4>1. Pookode Lake</h4> 
+           <p>A natural fresh water lake surrounded by evergreen forest and rolling hills. A fresh water aquarium with large variety of fish is an added attraction. Tourists can also avail of boating facilities,cycling, children’s park, and a shopping centre for handicrafts and spices.</p>
+          </div>
+        </div>
+        <div class="row border-top pt-3">
+         
+          <div class="col-6 col-md-9">
+           <h4>2. Kuruva Island</h4> 
+           <p>Kuruvadweep or Kuruva Island comprises of a cluster of islets over the middle of Kabini River in Wayanad that is popular for the boat rides it offers on specially crafted bamboo rafts.</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/wayanad/kuruva.jpg" alt="" class="img-fluid"/>
+        </div>
+        </div>
+        <div class="row pb-2 border-top pt-3">
+          <div class="col-6 col-md-3">
+              <img src="images/wayanad/WAYANAD-HERITAGE-MUSIUM-IMAGE-08-1024x682.jpg" alt="" class="img-fluid"/>
+          </div>
+          <div class="col-6 col-md-9">
+           <h4>3. Wayanad Heritage Museum</h4> 
+           <p>Wayanad Heritage museum, situated at Ambalavayal, about 12 km from Sulthan Bathery. </p>
+          </div>
+        </div>
+        <div class="row border-top pt-3">
+         
+          <div class="col-6 col-md-9">
+           <h4>4. Muthanga</h4> 
+           <p>Muthanga Wildlife Sanctuary is considered to be the second largest wildlife sanctuary in Kerala and bio-geographically one of the richest tracts of peninsular India.</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/wayanad/80.jpg" alt="" class="img-fluid"/>
+        </div>
+        </div>
+        <div class="row mt-4 text-center">
+        <div class="col-6 col-md-3">
+          <img src="images/wayanad/1520062171_wayanad_points_of_interest.jpg.jpg" alt=""/>
+          <h5>Meenmutty Waterfalls</h5>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/wayanad/1520318496_wayanad_tourist_places.jpeg.jpg" alt=""/>
+          <h5>Tholpetty Wildlife Sanctuary</h5>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/wayanad/1568965297_2_Terowongan_Indah_Dunia_travelgaijincom.jpg.jpg" alt=""/>
+          <h5>Bamboo Forests</h5>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/wayanad/chembra.jpg" alt=""/>
+          <h5>Chembra Peak</h5>
+        </div>
+      </div>
+
+        </div>
+      </div>
+   </section>
+   <!-- /Points of interest -->
+   <div class="container">
+   <div class="row">
+    <div class="col-6 col-md-6">
+      <!-- HTML !-->
+      <button class="button-18" role="button"><a class="text-decoration-none text-light" href="kozhikode.html">Kozhikode</a></button>
+    </div>
+    <div class="col-6 col-md-6 justify-content-end d-flex">
+      <button class="button-18" role="button"><a class="text-decoration-none text-light" href="kasaragod.html">Kasaragod</a></button>
+    </div>
+   </div>
+  </div>
    <footer class="bg-white mt-5">
       <div class="container text-center">
         <div class="row">

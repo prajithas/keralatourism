@@ -54,13 +54,13 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="district.html">Districts</a>
+              <a class="nav-link " href="district.html">Districts</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="register.html">Sign Up</a>
+              <a class="nav-link active" href="register.html">Sign Up</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -81,129 +81,85 @@
    <section class="pt-5 pb-5 bg-lightblue">
     <div class="container">
       <div class="row">
-        <h2 class="text-center text-success pb-5">District Attractions</h2>
-        <div class="row text-center">
-          <div class="col-md-3">
-            <a href="thiruvananthapuram.html" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/kuthira-malika1.jpg" alt="" class="img-fluid"/>
+        <h2 class="text-center text-success pb-5">Register</h2>
+        
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            <div class="valid-tooltip">
+              Looks good!
             </div>
-            <h4 class="pb-2 pt-2">Thiruvananthapuram</h4>
-            </a>
           </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-            <img src="images/kollam.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="" required>
+            <div class="valid-tooltip">
+              Looks good!
             </div>
-            <h4 class="pb-2 pt-2">Kollam</h4>
-          </a>
           </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/gavi.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltipUsername" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              <input type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a unique and valid email.
+              </div>
             </div>
-            <h4 class="pb-2 pt-2">Pathanamthitta</h4>
-          </a>
           </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/alappuzha.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltipUsername" class="form-label">Phone</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="validationTooltipphonePrepend"><i class="bi bi-phone"></i></i></span>
+              <input type="text" class="form-control" id="validationTooltipphone" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a and valid phone.
+              </div>
             </div>
-            <h4 class="pb-2 pt-2">Alappuzha</h4>
-            </a>
           </div>
-       
-         
-        </div>
-        <div class="row text-center mt-3">
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/kottayam.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">Password</label>
+            <input type="password" class="form-control" id="validationTooltip04" required>
+            <div class="invalid-tooltip">
+              Please provide a valid password.
             </div>
-            <h4 class="pb-2 pt-2">Kottayam</h4>
-            </a>
           </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/dam.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Wrong confirm password
             </div>
-            <h4 class="pb-2 pt-2">Idukki</h4>
-            </a>
           </div>
-          <div class="col-md-3">
-            <a href="ernakulam.html" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/cochin.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
             </div>
-            <h4 class="pb-2 pt-2">Ernakulam</h4>
-            </a>
           </div>
-          <div class="col-md-3">
-            <a href="#" class="text-dark text-decoration-none">
-              <div class="bg-image hover-zoom">
-            <img src="images/thrissur.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please select a valid state.
             </div>
-            <h4 class="pb-2 pt-2">Thrissur</h4>
-            </a>
           </div>
-       </div>
-       <div class="row text-center mt-3">
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/palakkad.jpg" alt="" class="img-fluid"/>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
           </div>
-          <h4 class="pb-2 pt-2">Palakkad</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/malappuram.jpg" alt="" class="img-fluid"/>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
           </div>
-          <h4 class="pb-2 pt-2">Malappuram</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="kozhikode.html" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/beypore-2.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Kozhikode</h4>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="wayanad.html" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/wayanad.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Wayanad</h4>
-          </a>
-        </div>
-        </div>
-        <div class="row text-center mt-3">
-        <div class="col-md-3">
-          <a href="#" class="text-dark text-decoration-none">
-            <div class="bg-image hover-zoom">
-          <img src="images/kannur.jpg" alt="" class="img-fluid"/>
-          </div>
-          <h4 class="pb-2 pt-2">Kannur</h4>
-          </a>
-        </div>
-        <div class="col-md-3 ">
-          <a href="kasaragod.html" class="text-dark text-decoration-none">
-          <div class="bg-image hover-zoom">
-          <img src="images/ranipuram-hills-3.jpg" alt="" class="img-fluid w-100"/>
-        </div>
-          <h4 class="pb-2 pt-2">Kasaragod</h4>
-          </a>
-        </div>
-        </div>
+        </form>
       
         
        </div>
