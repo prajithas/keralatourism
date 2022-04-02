@@ -133,8 +133,8 @@ img{max-width:100%;}
 .social li a {
     display: block;
     text-align: center;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     padding: 20px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
@@ -142,8 +142,8 @@ img{max-width:100%;}
     border-bottom-left-radius: 50px;
     color: #ffffff;
     cursor: pointer;
-    line-height: 40px;
-    font-size: 30px;
+    line-height: 15px;
+    font-size: 23px;
 }
 .social li i{color:#fff;}
 .bg-green{background-color: rgb(25,135,84);}

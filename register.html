@@ -74,19 +74,20 @@
     <!-- /navbar -->
    <section class="container-fluid">
      <div class="">
-       <img src="images/banner.jpg" alt=""/>
+       <img src="./images/banner.jpg" alt=""/>
      </div>
    </section>
    
    <!-- District Attractions -->
    <section class="pt-5 pb-5 bg-lightblue">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
+        <div class="border w-75 bg-light p-5 rounded-5">
         <h2 class="text-center text-success pb-5">Register</h2>
         
         <form class="row g-3 needs-validation" novalidate>
           <div class="col-md-6 position-relative">
-            <label for="validationTooltip01" class="form-label">First name</label>
+            <label for="validationTooltip01" class="form-label" required>First name</label>
             <input type="text" class="form-control" id="validationTooltip01" value="" required>
             <div class="valid-tooltip">
               Looks good!
@@ -110,7 +111,7 @@
             </div>
           </div>
           <div class="col-md-6 position-relative">
-            <label for="validationTooltipUsername" class="form-label">Phone</label>
+            <label for="validationTooltipemail" class="form-label">Phone</label>
             <div class="input-group has-validation">
               <span class="input-group-text" id="validationTooltipphonePrepend"><i class="bi bi-phone"></i></i></span>
               <input type="text" class="form-control" id="validationTooltipphone" aria-describedby="validationTooltipUsernamePrepend" required>
@@ -127,22 +128,31 @@
             </div>
           </div>
           <div class="col-md-6 position-relative">
-            <label for="validationTooltip03" class="form-label">Confirm Password</label>
+            <label for="validationTooltip04" class="form-label">Confirm Password</label>
             <input type="password" class="form-control" id="validationTooltip05" required>
             <div class="invalid-tooltip">
               Wrong confirm password
             </div>
           </div>
+          <div class="col-md-8 position-relative">
+            <label for="validationTooltip05" class="form-label">Address</label>
+            <input type="password" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Wrong confirm password
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            </div>
           <div class="col-md-6 position-relative">
-            <label for="validationTooltip03" class="form-label">City</label>
-            <input type="text" class="form-control" id="validationTooltip03" required>
+            <label for="validationTooltip06" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationTooltip03">
             <div class="invalid-tooltip">
               Please provide a valid city.
             </div>
           </div>
           <div class="col-md-3 position-relative">
-            <label for="validationTooltip04" class="form-label">State</label>
-            <select class="form-select" id="validationTooltip04" required>
+            <label for="validationTooltip047" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04">
               <option selected disabled value="">Choose...</option>
               <option>...</option>
             </select>
@@ -151,7 +161,7 @@
             </div>
           </div>
           <div class="col-md-3 position-relative">
-            <label for="validationTooltip05" class="form-label">Zip</label>
+            <label for="validationTooltip08" class="form-label">Zip</label>
             <input type="text" class="form-control" id="validationTooltip05" required>
             <div class="invalid-tooltip">
               Please provide a valid zip.
@@ -162,7 +172,7 @@
           </div>
         </form>
       
-        
+        </div>
        </div>
       </div>
     </div>
