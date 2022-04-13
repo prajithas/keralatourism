@@ -102,10 +102,12 @@
   <!-- login form -->
   <div class="position-absolute p-5 loginform text-light">
     <h2>Login</h2>
-    <form>
+    <label for="error" id="error"></label>
+    <form action="thankyou.html" id="login_validate" name="loginform">
+
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input required type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -113,9 +115,13 @@
       </div>
       
       <button type="submit" class="btn btn-primary">Submit</button>
+
+
     </form>
+   
     <p class="text-center pt-3"> Don't have an account?<br/>
       <a href="./register.html">Register Now</a>
+      <script src="./js/scripts.js"></script>
       </p>
   </div>
   <!-- /login form -->
